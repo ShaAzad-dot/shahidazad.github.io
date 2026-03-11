@@ -1,81 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Support - Shahid Azad Apps</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-
-body{
-font-family: Arial, sans-serif;
-margin:0;
-background:#f4f6f9;
-color:#333;
-}
-
-header{
-background:#1a73e8;
-color:white;
-padding:50px;
-text-align:center;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-padding:40px 20px;
-}
-
-h2{
-margin-top:40px;
-}
-
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Shahid Azad Apps</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #2563EB; --primary-dark: #1E3A8A; --bg-color: #F8FAFC; --text-main: #1E293B; --text-muted: #64748B; --card-bg: #FFFFFF; }
+        body { margin: 0; font-family: 'Inter', sans-serif; background-color: var(--bg-color); color: var(--text-main); line-height: 1.6; }
+        nav { background: var(--card-bg); padding: 15px 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; position: sticky; top: 0; z-index: 100; }
+        nav a { text-decoration: none; color: var(--text-muted); font-weight: 600; transition: color 0.3s ease; }
+        nav a:hover { color: var(--primary); }
+        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 2rem; }
+        .container { max-width: 800px; margin: 40px auto; padding: 0 20px; min-height: 50vh; }
+        .card { background: var(--card-bg); padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+        h2 { color: var(--primary-dark); margin-top: 30px; font-size: 1.3rem; }
+        p { color: var(--text-muted); }
+        footer { background: #0F172A; color: #94A3B8; text-align: center; padding: 30px 20px; margin-top: 60px; }
+    </style>
 </head>
-
 <body>
 
+<nav>
+    <a href="index.html">Home</a>
+    <a href="apps.html">All Apps</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
 <header>
-<h1>Support</h1>
-<p>Shahid Azad Apps</p>
+    <h1>App Support</h1>
 </header>
 
 <div class="container">
+    <div class="card">
+        <h2>Need Help?</h2>
+        <p>If you are experiencing any issues with our Flutter applications, we are here to help. We are always looking to improve our apps based on user feedback.</p>
 
-<h2>Need Help?</h2>
+        <h2>Common Questions</h2>
+        <p><strong>App not working properly?</strong><br>
+        Please try updating the app to the latest version available on the Google Play Store. Sometimes, simply restarting your device can also resolve minor glitches.</p>
 
-<p>
-If you are experiencing any issues with our applications, please contact us.
-We are happy to assist you and improve our apps.
-</p>
+        <p><strong>Found a bug or have a feature request?</strong><br>
+        We would love to hear from you. Send us an email with details (such as your device model and Android version) so we can investigate and fix the issue quickly.</p>
 
-<h2>Common Questions</h2>
-
-<p><b>App not working?</b><br>
-Please try updating the app to the latest version from the Play Store.</p>
-
-<p><b>Found a bug?</b><br>
-Send us an email with details so we can fix the issue quickly.</p>
-
-<h2>Contact Support</h2>
-
-<p>
-Email: <b>sshahid.fazad@gmail.com</b>
-</p>
-
+        <h2>Contact Support Directly</h2>
+        <p>Email us at: <strong>sshahid.fazad@gmail.com</strong></p>
+    </div>
 </div>
 
 <footer>
-© 2026 Shahid Azad Apps
+    <p>&copy; 2026 Shahid Azad Apps. All rights reserved.</p>
 </footer>
 
 </body>
