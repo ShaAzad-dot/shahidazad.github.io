@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinTrack - Shahid Azad Apps</title>
+    <title>FinTrack - AI Wealth Manager</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root { --primary: #2563EB; --primary-dark: #1E3A8A; --bg-color: #F8FAFC; --text-main: #1E293B; --text-muted: #64748B; --card-bg: #FFFFFF; }
@@ -16,10 +16,11 @@
         .container { max-width: 800px; margin: 40px auto; padding: 0 20px; min-height: 50vh; }
         .card { background: var(--card-bg); padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         h2 { color: var(--primary-dark); border-bottom: 2px solid #E2E8F0; padding-bottom: 10px; margin-top: 30px; }
+        h3 { color: var(--primary); margin-top: 20px; margin-bottom: 5px; }
         .btn { display: inline-block; margin-top: 15px; padding: 12px 24px; background: var(--primary); color: white; text-decoration: none; border-radius: 8px; font-weight: 600; }
         .btn:hover { background: var(--primary-dark); }
-        ul { padding-left: 20px; color: var(--text-muted); }
-        li { margin-bottom: 10px; }
+        ul { padding-left: 20px; color: var(--text-muted); margin-top: 5px; }
+        li { margin-bottom: 8px; }
         footer { background: #0F172A; color: #94A3B8; text-align: center; padding: 30px 20px; margin-top: 60px; }
     </style>
 </head>
@@ -35,26 +36,45 @@
 
 <header>
     <h1>FinTrack</h1>
-    <p>Take Control of Your Finances</p>
+    <p>Your Ultimate AI-Powered Wealth & Debt Manager</p>
 </header>
 
 <div class="container">
     <div class="card">
         <h2>About The App</h2>
-        <p style="color: var(--text-muted);">FinTrack is a comprehensive finance management tool built to help you track expenses, monitor subscriptions, and achieve your financial goals. Built with Flutter for a smooth, native experience.</p>
+        <p style="color: var(--text-muted);">FinTrack is a complete personal finance ecosystem. Move beyond simple expense tracking and take total control of your bank balances, credit cards, loans, investments, and personal debts. Powered by advanced AI (Claude), FinTrack analyzes your financial behavior to help you clear debts faster and grow your assets.</p>
         
-        <h2>Features</h2>
+        <h2>Core Features</h2>
+        
+        <h3>🏦 Accounts & Cards Management</h3>
         <ul>
-            <li>Intuitive expense and income logging.</li>
-            <li>Visual charts and monthly breakdown reports.</li>
-            <li>Secure local data storage (No cloud dependency).</li>
-            <li>Dark mode support.</li>
+            <li>Live tracking of Bank Account available balances based on your income and expenses.</li>
+            <li>Credit Card tracking: Monitor total limits, utilized limits, and available limits instantly.</li>
         </ul>
 
-        <h2>App Details</h2>
-        <p style="color: var(--text-muted);"><strong>Version:</strong> 1.0.0<br>
-        <strong>Platform:</strong> Android<br>
-        <strong>Developer:</strong> Shahid Azad</p>
+        <h3>📊 Loans, Debts & Bills</h3>
+        <ul>
+            <li><strong>Loan Tracking:</strong> Track principal amounts, interest rates, paid/pending EMIs, and loan end dates.</li>
+            <li><strong>Personal Debts:</strong> Log who you borrowed from (or lent to), expected return dates, and tracking partial payments.</li>
+            <li><strong>Bill Management:</strong> Monthly lists of upcoming bills to ensure you never miss a due date.</li>
+        </ul>
+
+        <h3>📈 Assets, Investments & Goals</h3>
+        <ul>
+            <li>Track real-world assets and log their appreciating or depreciating values.</li>
+            <li>Monitor investments: See where your money is invested and track real-time profit and loss.</li>
+            <li>Set and track dedicated financial goals.</li>
+        </ul>
+
+        <h3>🤖 AI Financial Assistant & Reports</h3>
+        <ul>
+            <li><strong>AI Chat:</strong> Powered by Claude API, our AI analyzes your spending behavior and provides personalized advice to clear debts and optimize savings.</li>
+            <li>Generate and export comprehensive PDF reports of your financial health.</li>
+            <li>Receive timely alerts via Email and WhatsApp messages.</li>
+        </ul>
+
+        <h2>Premium Features</h2>
+        <p style="color: var(--text-muted);">FinTrack is free to use with optional premium features. You can unlock 24 hours of full Premium Access simply by watching a rewarded ad, or upgrade to our monthly subscription (₹99/month) for an uninterrupted, ad-free experience. Premium gives you access to advanced AI insights, priority support, and seamless cloud data import/export.</p>
 
         <div style="text-align: center; margin-top: 40px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
             <a href="#" class="btn">Get it on Google Play</a>
